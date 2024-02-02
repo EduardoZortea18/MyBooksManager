@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\bin\Debug\net8.0\MyBooksManager.Domain.deps.json
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\bin\Debug\net8.0\MyBooksManager.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\bin\Debug\net8.0\MyBooksManager.Domain.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\refint\MyBooksManager.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\ref\MyBooksManager.Domain.dll

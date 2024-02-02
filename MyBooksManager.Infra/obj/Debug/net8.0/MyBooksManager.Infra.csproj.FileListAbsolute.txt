@@ -1,0 +1,17 @@
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\bin\Debug\net8.0\MyBooksManager.Infra.deps.json
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\bin\Debug\net8.0\MyBooksManager.Infra.runtimeconfig.json
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\bin\Debug\net8.0\MyBooksManager.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\bin\Debug\net8.0\MyBooksManager.Infra.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\bin\Debug\net8.0\MyBooksManager.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\bin\Debug\net8.0\MyBooksManager.Domain.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.csproj.AssemblyReference.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.csproj.CopyComplete
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\refint\MyBooksManager.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.genruntimeconfig.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\ref\MyBooksManager.Infra.dll

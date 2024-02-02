@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MyBooksManager.Domain/1.0.0": {
+        "runtime": {
+          "MyBooksManager.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBooksManager.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jhBdyBEsfMhP7VAh/XrmC+52X0CdRvTl/WOdY/rNrkrsSNTWNTEZgJLbNXldl7sDfWlvJ7wS1Okehb8mPZrJ4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\MyBooksManager.Api\\MyBooksManager.Ioc\\MyBooksManager.Ioc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

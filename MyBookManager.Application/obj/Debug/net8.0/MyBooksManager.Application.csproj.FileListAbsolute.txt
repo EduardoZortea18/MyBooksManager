@@ -1,0 +1,15 @@
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\bin\Debug\net8.0\MyBooksManager.Application.deps.json
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\bin\Debug\net8.0\MyBooksManager.Application.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\bin\Debug\net8.0\MyBooksManager.Application.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\refint\MyBooksManager.Application.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\ref\MyBooksManager.Application.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\bin\Debug\net8.0\MyBooksManager.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\bin\Debug\net8.0\MyBooksManager.Domain.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.csproj.AssemblyReference.cache
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBookManager.Application\obj\Debug\net8.0\MyBooksManager.Application.csproj.CopyComplete

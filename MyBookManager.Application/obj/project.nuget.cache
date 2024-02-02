@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "17WSl9j1jhuFhf7UlS0sRo/2uPM3CuxHIFYx8dUgCU8OlERVt83bs5R8gjOqiy2ddXxPaPEiGQPc6MCypkn+gQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\MyBooksManager.Api\\MyBookManager.Application\\MyBooksManager.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

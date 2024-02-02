@@ -1,0 +1,17 @@
+version: latest
+
+services:
+  postgres-compose:
+    image: postgres
+    environment:
+      POSTGRES_USER: "BooksManager"
+      POSTGRES_PASSWORD: "BooksDb2024!"
+    container_name: booksmanager
+    restart: always
+    ports:
+      - "15432:5432"
+    networks:
+      - postgres-compose-network
+networks:
+  postgres-compose-network:
+    driver: bridge
