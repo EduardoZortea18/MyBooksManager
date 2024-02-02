@@ -110,3 +110,9 @@ C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\De
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\MyBooksManager.Application.dll
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\MyBooksManager.Application.pdb
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\obj\Debug\net8.0\MyBooksManager.Api.sourcelink.json
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\MyBooksManager.Ioc.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Api\bin\Debug\net8.0\MyBooksManager.Ioc.pdb

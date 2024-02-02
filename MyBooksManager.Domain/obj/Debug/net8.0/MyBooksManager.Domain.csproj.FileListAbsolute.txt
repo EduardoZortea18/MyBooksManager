@@ -9,3 +9,4 @@ C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\refint\MyBooksManager.Domain.dll
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.pdb
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\ref\MyBooksManager.Domain.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Domain\obj\Debug\net8.0\MyBooksManager.Domain.sourcelink.json

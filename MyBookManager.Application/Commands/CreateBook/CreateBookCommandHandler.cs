@@ -1,13 +1,24 @@
 ﻿using BooksManager.Domain.Entities;
 using MediatR;
+using MyBooksManager.Domain.Repositories;
 
 namespace MyBooksManager.Application.Commands.CreateBook
 {
-    public class CreateBookCommandHandler : IRequestHandler<CreateBookCommand, Book>
+    public class CreateBookCommandHandler : IRequestHandler<CreateBookCommand, int>
     {
-        public Task<Book> Handle(CreateBookCommand request, CancellationToken cancellationToken)
+        private readonly IBooksRepository _repository;
+
+        public CreateBookCommandHandler(IBooksRepository repository)
         {
-            return Task.FromResult(new Book());
+            _repository = repository;
+        }
+
+        public async Task<int> Handle(CreateBookCommand command, CancellationToken cancellationToken)
+        {
+            var book = new Book(command.Title, command.Author, command.Isbn, command.PublicationDate);
+            await _repository.Create(book);
+
+            return book.Id;
         }
     }
 }

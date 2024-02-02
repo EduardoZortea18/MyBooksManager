@@ -15,3 +15,4 @@ C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.pdb
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.genruntimeconfig.cache
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\ref\MyBooksManager.Infra.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Infra\obj\Debug\net8.0\MyBooksManager.Infra.sourcelink.json
