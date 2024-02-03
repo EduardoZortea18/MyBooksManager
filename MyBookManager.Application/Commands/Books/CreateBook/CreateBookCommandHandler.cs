@@ -2,7 +2,7 @@
 using MediatR;
 using MyBooksManager.Domain.Repositories;
 
-namespace MyBooksManager.Application.Commands.CreateBook
+namespace MyBooksManager.Application.Commands.Books.CreateBook
 {
     public class CreateBookCommandHandler : IRequestHandler<CreateBookCommand, int>
     {

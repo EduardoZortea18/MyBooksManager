@@ -1,8 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using MyBooksManager.Application.Commands.CreateBook;
-using MyBooksManager.Application.Queries.GetAllBooks;
-using MyBooksManager.Application.Queries.GetBook;
+using MyBooksManager.Application.Commands.Books.CreateBook;
+using MyBooksManager.Application.Commands.Books.DeleteBook;
+using MyBooksManager.Application.Queries.Books.GetAllBooks;
+using MyBooksManager.Application.Queries.Books.GetBook;
 
 namespace MyBooksManager.Api.Controllers
 {
@@ -26,14 +27,16 @@ namespace MyBooksManager.Api.Controllers
                 return BadRequest(errorMessages);
             }
 
-            var result = await _mediator.Send(command);
-            return CreatedAtAction(string.Empty, result, command);
+            var id = await _mediator.Send(command);
+
+            return CreatedAtAction(nameof(GetBook), new { Id = id }, command);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBook([FromRoute] int id)
         {
             var result = await _mediator.Send(new GetBookQuery(id));
+
             if (result == null)
             {
                 return NotFound();
@@ -45,5 +48,12 @@ namespace MyBooksManager.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllBooks()
             => Ok(await _mediator.Send(new GetAllBooksQuery()));
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBook([FromRoute] int id)
+        {
+            await _mediator.Send(new DeleteBookCommand(id));
+            return NoContent();
+        }
     }
 }

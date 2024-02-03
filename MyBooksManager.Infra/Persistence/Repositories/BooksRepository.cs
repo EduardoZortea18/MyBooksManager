@@ -13,16 +13,22 @@ namespace MyBooksManager.Infra.Persistence.Repositories
         {
             _context = context;
         }
+
         public async Task Create(Book book)
         {
             await _context.Books.AddAsync(book);
-            await _context.SaveChangesAsync();
+            await SaveChangesAsync();
         }
 
         public async Task<Book> Get(int id)
-            => await _context.Books.FirstOrDefaultAsync(x => x.Id == id);
+            => await _context.Books.FirstOrDefaultAsync(x => x.Id == id && x.Active);
 
         public async Task<List<Book>> GetAll()
-            => await _context.Books.ToListAsync();
+            => await _context.Books.Where(x => x.Active).ToListAsync();
+
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync();
+        }
     }
 }

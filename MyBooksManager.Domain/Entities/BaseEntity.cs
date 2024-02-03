@@ -7,7 +7,7 @@
         public DateTime LastUpdatedAt { get; protected set; }
         public bool Active { get; private set; } = true;
 
-        protected void SetAsInactive()
+        public void Delete()
         {
             Active = false;
         }

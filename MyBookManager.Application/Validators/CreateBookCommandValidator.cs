@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
-using MyBooksManager.Application.Commands.CreateBook;
+using MyBooksManager.Application.Commands.Books.CreateBook;
+using System.Globalization;
 
 namespace MyBooksManager.Application.Validators
 {
@@ -23,8 +24,18 @@ namespace MyBooksManager.Application.Validators
                .NotNull().WithMessage("Isbn can't be null.");
 
             RuleFor(x => x.PublicationDate)
-               .NotEmpty().WithMessage("PublicationDate can't be empty.")
-               .NotNull().WithMessage("PublicationDate can't be null.");
+                .Must(IsValidDateFormat).WithMessage("Invalid date format")
+                .NotEmpty().WithMessage("PublicationDate can't be empty.")
+                .NotNull().WithMessage("PublicationDate can't be null.");
+        }
+
+        private bool IsValidDateFormat(int date)
+        {
+            DateTime dateParsed;
+            DateTime.TryParseExact(date.ToString(), "yyyyMMdd",
+                          CultureInfo.InvariantCulture,
+                          DateTimeStyles.None, out dateParsed);
+            return dateParsed != DateTime.MinValue;
         }
     }
 }

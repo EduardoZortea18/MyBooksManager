@@ -1,8 +1,8 @@
 ﻿using MediatR;
-using MyBooksManager.Application.Models.Response;
+using MyBooksManager.Application.Models.Responses.Books;
 using MyBooksManager.Domain.Repositories;
 
-namespace MyBooksManager.Application.Queries.GetAllBooks
+namespace MyBooksManager.Application.Queries.Books.GetAllBooks
 {
     public class GetAllBooksQueryHandler : IRequestHandler<GetAllBooksQuery, List<BookResponseModel>>
     {

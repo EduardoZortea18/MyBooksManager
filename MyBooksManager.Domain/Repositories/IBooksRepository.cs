@@ -7,5 +7,6 @@ namespace MyBooksManager.Domain.Repositories
         Task Create(Book book);
         Task<Book> Get(int id);
         Task<List<Book>> GetAll();
+        Task SaveChangesAsync();
     }
 }

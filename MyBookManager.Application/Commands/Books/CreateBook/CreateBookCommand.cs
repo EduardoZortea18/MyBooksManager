@@ -1,7 +1,6 @@
-﻿using BooksManager.Domain.Entities;
-using MediatR;
+﻿using MediatR;
 
-namespace MyBooksManager.Application.Commands.CreateBook
+namespace MyBooksManager.Application.Commands.Books.CreateBook
 {
     public class CreateBookCommand : IRequest<int>
     {

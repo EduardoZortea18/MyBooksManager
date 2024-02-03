@@ -14,6 +14,7 @@ namespace MyBooksManager.Ioc
         private static void AddRepositories(IServiceCollection services)
         {
             services.AddScoped<IBooksRepository, BooksRepository>();
+            services.AddScoped<IUsersRepository, UsersRepository>();
         }
     }
 }
