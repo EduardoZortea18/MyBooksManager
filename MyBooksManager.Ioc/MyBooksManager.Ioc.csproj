@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyBookManager.Application\MyBooksManager.Application.csproj" />
     <ProjectReference Include="..\MyBooksManager.Infra\MyBooksManager.Infra.csproj" />
   </ItemGroup>
 

@@ -712,7 +712,9 @@
       },
       "MyBooksManager.Ioc/1.0.0": {
         "dependencies": {
+          "MediatR": "12.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "MyBooksManager.Application": "1.0.0",
           "MyBooksManager.Infra": "1.0.0"
         },
         "runtime": {

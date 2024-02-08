@@ -18,7 +18,10 @@ namespace MyBooksManager.Application.Commands.Loans.FinishLoan
         {
             var loanToBeFinished = await _repository.Get(command.Id);
 
-            if (loanToBeFinished == null) return null;
+            if (loanToBeFinished == null)
+            {
+                return new Result<LoanResponseModel>(new LoanResponseModel(), "Record does not exist", true);
+            };
 
             loanToBeFinished.ConfirmReturn();
 

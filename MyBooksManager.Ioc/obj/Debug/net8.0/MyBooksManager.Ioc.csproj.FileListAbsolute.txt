@@ -16,3 +16,5 @@ C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Ioc\obj\De
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Ioc\obj\Debug\net8.0\refint\MyBooksManager.Ioc.dll
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Ioc\obj\Debug\net8.0\MyBooksManager.Ioc.pdb
 C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Ioc\obj\Debug\net8.0\ref\MyBooksManager.Ioc.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Ioc\bin\Debug\net8.0\MyBooksManager.Application.dll
+C:\Users\Pichau\Desktop\NewProjects\MyBooksManager.Api\MyBooksManager.Ioc\bin\Debug\net8.0\MyBooksManager.Application.pdb

@@ -343,6 +343,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Pichau\\Desktop\\NewProjects\\MyBooksManager.Api\\MyBookManager.Application\\MyBooksManager.Application.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\MyBooksManager.Api\\MyBookManager.Application\\MyBooksManager.Application.csproj"
+              },
               "C:\\Users\\Pichau\\Desktop\\NewProjects\\MyBooksManager.Api\\MyBooksManager.Infra\\MyBooksManager.Infra.csproj": {
                 "projectPath": "C:\\Users\\Pichau\\Desktop\\NewProjects\\MyBooksManager.Api\\MyBooksManager.Infra\\MyBooksManager.Infra.csproj"
               }
@@ -359,6 +362,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
