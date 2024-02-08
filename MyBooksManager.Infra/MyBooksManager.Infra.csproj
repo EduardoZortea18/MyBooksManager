@@ -20,4 +20,8 @@
     <ProjectReference Include="..\MyBooksManager.Domain\MyBooksManager.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Persistence\Migrations\" />
+  </ItemGroup>
+
 </Project>

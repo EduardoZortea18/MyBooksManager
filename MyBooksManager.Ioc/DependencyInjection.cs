@@ -15,6 +15,7 @@ namespace MyBooksManager.Ioc
         {
             services.AddScoped<IBooksRepository, BooksRepository>();
             services.AddScoped<IUsersRepository, UsersRepository>();
+            services.AddScoped<ILoansRepository, LoansRepository>();
         }
     }
 }

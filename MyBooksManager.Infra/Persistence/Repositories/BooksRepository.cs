@@ -21,10 +21,10 @@ namespace MyBooksManager.Infra.Persistence.Repositories
         }
 
         public async Task<Book> Get(int id)
-            => await _context.Books.FirstOrDefaultAsync(x => x.Id == id && x.Active);
+            => await _context.Books.Include(x => x.Loans).FirstOrDefaultAsync(x => x.Id == id && x.Active);
 
         public async Task<List<Book>> GetAll()
-            => await _context.Books.Where(x => x.Active).ToListAsync();
+            => await _context.Books.Include(x => x.Loans).Where(x => x.Active).ToListAsync();
 
         public async Task SaveChangesAsync()
         {

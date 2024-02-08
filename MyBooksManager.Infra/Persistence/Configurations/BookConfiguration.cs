@@ -1,5 +1,8 @@
 ﻿using BooksManager.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Reflection.Emit;
+using System.Reflection.Metadata;
 
 namespace BooksManager.Infra.Persistence.Configurations
 {
@@ -25,6 +28,13 @@ namespace BooksManager.Infra.Persistence.Configurations
             builder.Property(x => x.PublicationDate)
                .IsRequired()
                .HasMaxLength(10);
+
+            builder
+                .HasMany(x => x.Loans)
+                .WithOne(l => l.Book)
+                .HasForeignKey(l => l.BookId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

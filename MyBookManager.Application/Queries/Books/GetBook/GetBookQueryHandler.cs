@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using MyBooksManager.Application.Models.Responses.Books;
+using MyBooksManager.Application.Models.Responses.Loans;
 using MyBooksManager.Domain.Repositories;
 
 namespace MyBooksManager.Application.Queries.Books.GetBook
@@ -20,7 +21,12 @@ namespace MyBooksManager.Application.Queries.Books.GetBook
             if (response == null) return null;
 
             return new BookResponseModel(
-                response.Id, response.Title, response.Author, response.Isbn, response.PublicationDate);
+                response.Id,
+                response.Title,
+                response.Author,
+                response.Isbn,
+                response.PublicationDate,
+                response.Loans.Select(x => new LoanResponseModel(x.BookId, x.UserId, x.LoanDate, x.ExpectedReturnDate, x.ReturnDate)).ToList());
         }
     }
 }
